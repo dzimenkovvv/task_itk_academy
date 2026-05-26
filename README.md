@@ -4,6 +4,16 @@ REST-сервис для управления кошельками на Go + Pos
 
 ## Запуск
 
+1. Создай `config.env` на основе примера:
+
+```bash
+cp config.env.example config.env
+```
+
+2. Заполни `config.env` своими данными
+
+3. Запусти:
+
 ```bash
 docker-compose up --build
 ```
