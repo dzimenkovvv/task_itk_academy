@@ -12,7 +12,9 @@ cp config.env.example config.env
 
 2. Заполни `config.env` своими данными
 
-3. Запусти:
+3. Поменяй данные в `docker-compose.yml`
+
+4. Запусти:
 
 ```bash
 docker-compose up --build
